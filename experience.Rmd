@@ -7,3 +7,64 @@ output:
     theme: cerulean
 ---
 
+### EDUCATION:
+
+Columbia University:
+
+* Columbia College: Bachelor of Arts in Biochemistry (2014-2018)
+* Mailman School of Public Health: MS in Biostatistics (Expected Completion 2023) 
+
+### EXPERIENCE:
+
+
+Human Research Protection Office - IRB Specialist
+
+* Evaluates research protocols for ethics and scientific standards.
+* Provides feedback and edits to research teams on protocol submissions and modifications.
+* Works with Institutional Review Board members to render decisions on submissions.
+
+Herbert Irving Comprehensive Cancer Center - Project Coordinator for Translational Research Projects, August 2019-October 2021
+
+* Coordinates enrollment of patients and collections of biospecimens.
+* Manages storage of and participates in analysis of translational data.
+* Writes protocols and modifications alongside physicians and resident doctors.
+
+The Research Partnership - Research Analyst, July 2018-June 2019
+
+* Uses both quantitative and qualitative methods of analysis to answer pharmaceutical industry-related questions.
+* Provides recommendation to clients based on the results of the analysis.
+* Interfaces with clients regularly to ensure their needs are being met.
+
+Hunt Lab at Columbia University - Research Fellow and Research Assistant, May 2015-July 2018
+
+* Uses computational and laboratory methods to investigate biological questions.
+* Collaborates with other labs to solve problems.
+* Gives presentations on research findings as well as writes sections to be included in journal articles.
+
+Columbia College Student Council - Class of 2018 Representative, April 2017-May 2018
+
+* Manages budgets and funding allocations as part of the Finance Committee.
+* Collaborates with other student councils to create policy.
+* Organizes events through careful planning and cooperative efforts with the administration.
+* Meets and converses with members of the Columbia community to learn about pressing issues.
+
+Columbia University Office of Undergraduate Admissions - Student Information Session Leader, January 2017-May 2018
+
+* Presents information on Columbia University to prospective students.
+* Effectively communicates the unique benefits of a Columbia education.
+* Writes and constantly edits a script to continuously improve upon presentations.
+
+Human Engineering Research Laboratories - Research Intern, Data Analysis, June-July 2013
+
+* Organized mass amounts of data on wheelchair models and their malfunctions.
+* Identified possible reasons for malfunctions.
+* Created plan for redesign of faulty wheelchair designs.
+
+### COMPUTER SKILLS:
+
+* R Coding Language
+* Microsoft Office 
+* Google Drive
+* PyMol
+* Generunner
+* Chimera

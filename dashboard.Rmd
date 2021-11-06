@@ -1,0 +1,74 @@
+---
+title: "Dashboard"
+output: 
+  flexdashboard::flex_dashboard:
+    orientation: columns
+    vertical_layout: fill
+---
+
+```{r setup, include=FALSE}
+library(flexdashboard)
+library(tidyverse)
+library(plotly)
+library(p8105.datasets)
+```
+
+Column {data-width=650}
+-----------------------------------------------------------------------
+
+### Chart A
+
+```{r, message = FALSE, error = FALSE}
+data("rest_inspec")
+
+rest_inspec %>% 
+  filter(
+    score != "NA",
+    critical_flag == "Critical" | critical_flag == "Not Critical"
+  ) %>% 
+  plot_ly(y = ~score, color = ~critical_flag, type = "violin", colors = "viridis") %>% 
+  layout(
+    title = "Violin Plots for Critical Flags vs. Scores",
+    xaxis = list(title = "Critical Flags"),
+    yaxis = list(title = "Score")
+  )
+```
+
+Column {data-width=350}
+-----------------------------------------------------------------------
+
+### Chart B
+
+```{r}
+rest_inspec %>% 
+  group_by(boro) %>% 
+  summarize(
+    violation_number = n()
+  ) %>% 
+  filter(
+    boro != "Missing"
+  ) %>% 
+  plot_ly(x = ~boro, y = ~violation_number, color = ~boro, type = "bar", colors = "viridis") %>% 
+  layout(
+    title = "Restaurant Violations by Borough",
+    xaxis = list(title = "Borough"),
+    yaxis = list(title = "Number of Violations")
+  )
+```
+
+### Chart C
+
+```{r}
+rest_inspec %>% 
+  filter(
+    score != "NA",
+    grade == "A" | grade == "B" | grade == "C"
+  ) %>% 
+  plot_ly(x = ~grade, y = ~score, color = ~ grade, type = "box", colors = "viridis") %>% 
+  layout(
+    title = "Health Grades vs. Scores",
+    xaxis = list(title = "Grade"),
+    yaxis = list(title = "Score")
+  )
+```
+

@@ -2,15 +2,16 @@ name: "Matt's Website"
 output_dir: "."
 navbar:
   title: "Home"
+  href: index_mjn2142_gh_mattneky.html
   right:
     - text: "Experience"
       href: experience.html
-    - text: "Important Links"
-      href: important_links.html
+    - text: "Dashboard"
+      href: dashboard.html
     - icon: fa-envelope fa-lg
-      href: mailto:<you@youremail.com>
+      href: mailto:<mjn2142@columbia.edu>
     - icon: fa-github fa-lg
-      href: http://github.com/<YOUR_GH_NAME>/
+      href: http://github.com/mjn2142
 output:
   html_document:
     theme: cerulean
