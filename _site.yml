@@ -2,7 +2,6 @@ name: "Matt's Website"
 output_dir: "."
 navbar:
   title: "Home"
-  href: index_mjn2142_gh_mattneky.html
   right:
     - text: "Experience"
       href: experience.html
